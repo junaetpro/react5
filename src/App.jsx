@@ -18,11 +18,11 @@ function App() {
     <Nav/>
 
     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/about' element={<About_page/>}/>
-      <Route path='/service' element={<Service_page/>}/>
-      <Route path='/portfolio' element={<Portfolio_page/>}/>
-      <Route path='*' element={<Error/>}/>
+      <Route basename="/react5" path='/' element={<Home/>}/>
+      <Route basename="/react5" path='/about' element={<About_page/>}/>
+      <Route basename="/react5" path='/service' element={<Service_page/>}/>
+      <Route basename="/react5" path='/portfolio' element={<Portfolio_page/>}/>
+      <Route basename="/react5" path='*' element={<Error/>}/>
     </Routes>
       
       
