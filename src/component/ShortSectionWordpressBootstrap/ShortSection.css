@@ -1,0 +1,21 @@
+.shortsection1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+}
+.shortsection1 .left{
+    margin-right: 30px;
+}
+.shortsection1 .left h3{
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.shortsection1 .left h5{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}

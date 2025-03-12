@@ -1,0 +1,72 @@
+.about .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.about .top .box{
+    flex-basis: 30%;
+}
+
+.about .top .box .title_area{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.about .top .box .title_area i{
+    font-size: 40px;
+    color: #005C97;
+    margin-right: 15px;
+}
+.about .top .box .title_area  h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+.about .top .box .paragraph_area{
+    line-height: 25px;
+}
+.about .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.about .bottom .left{
+    flex-basis: 35%;
+}
+.about .bottom .left img{
+    width: 100%;
+}
+
+.about .bottom .right{
+    flex-basis: 60%;
+}
+.about .bottom .right h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.about .bottom .right .title_para{
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.about .bottom .right .right_bottom .info{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+.about .bottom .right .right_bottom .info i{
+    font-size: 40px;
+    color: #005C97;
+    margin-right: 20px;
+}
+.about .bottom .right .right_bottom .info span{
+    color: #005C97;
+    font-weight: 600;
+}
+.about .bottom .right .right_bottom .info p{
+    line-height: 25px;
+}

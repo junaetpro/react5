@@ -1,0 +1,17 @@
+.title_text{
+    text-align: center;
+    padding: 100px 0 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.title_text h3{
+    color: #005C97;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.title_text h1{
+    font-weight: 500;
+    font-size: 35px;
+}
