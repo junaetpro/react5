@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Nav from './component/NavSection/Nav'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home'
 import Error from './pages/Error'
 import About_page from './pages/About_page';
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
     <Nav/>
 
     <Routes>
@@ -26,7 +26,7 @@ function App() {
     </Routes>
       
       
-    </BrowserRouter>
+    </HashRouter>
 
       
     </>
